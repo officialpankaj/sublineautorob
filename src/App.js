@@ -1,6 +1,43 @@
+import Aos from "aos";
+import "aos/dist/aos.css";
+import { useEffect } from "react";
+import { Route, Routes } from "react-router-dom";
+import AboutUs from "./AboutUs";
+import ContactUs from "./ContactUs";
+import Footer from "./Footer";
+import Header from "./Header";
+import Home from "./Home";
+import NotFound404 from "./NotFound404";
+import ServiceDetails from "./ServiceDetails";
+import Services from "./Services";
+import TopBar from "./TopBar";
+import ScrollToTop from "./Utility/ScrollToTop";
+
 function App() {
+  useEffect(() => {
+    window.addEventListener("load", () => {
+      Aos.init({
+        duration: 600,
+      });
+      Aos.refresh();
+    });
+  }, []);
+
   return (
-    <div>Subline AutoRob</div>
+    <div>
+      <TopBar />
+      <Header />
+      <Routes>
+        <Route path="" element={<Home />} />
+        <Route path="about" element={<AboutUs />} />
+        <Route path="services" element={<Services />} />
+        <Route path="services/:servicename" element={<ServiceDetails />} />
+        <Route path="contact" element={<ContactUs />} />
+        <Route path="*" element={<NotFound404 />} />
+      </Routes>
+      <ScrollToTop />
+      <Footer />
+    </div>
   );
 }
 

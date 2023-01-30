@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Generator: Adobe Illustrator 25.0.1, SVG Export Plug-In . SVG Version: 6.00 Build 0)  -->
+<svg version="1.1" id="Layer_1" xmlns:svgjs="http://svgjs.com/svgjs"
+	 xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" x="0px" y="0px" viewBox="0 0 512 512"
+	 style="enable-background:new 0 0 512 512;" xml:space="preserve">
+<style type="text/css">
+	.st0{fill:#F68A38;stroke:#000000;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st1{fill:none;stroke:#000000;stroke-width:12;stroke-linecap:round;stroke-linejoin:round;stroke-miterlimit:10;}
+	.st2{fill:#FF8B34;}
+</style>
+<g>
+	<ellipse class="st0" cx="69.6" cy="411.3" rx="31.1" ry="31.1"/>
+	<ellipse class="st0" cx="193.9" cy="411.3" rx="31.1" ry="31.1"/>
+	<ellipse class="st1" cx="318.1" cy="411.3" rx="31.1" ry="31.1"/>
+	<ellipse class="st1" cx="442.4" cy="411.3" rx="31.1" ry="31.1"/>
+	<path class="st2" d="M267.2,184.5l-39.7-59.6c-4.1-6.2-3.3-14.5,2-19.7l31.1-31.1c2.9-2.9,6.9-4.6,11.1-4.6h46.7v31.3H278
+		l-17.4,17.4l15.3,22.9C285.5,155.5,281.6,174.9,267.2,184.5L267.2,184.5L267.2,184.5z M431.2,184.5l39.7-59.6
+		c4.1-6.2,3.3-14.5-2-19.7l-31.1-31.1c-2.9-2.9-6.9-4.6-11.1-4.6H380v31.3h40.2l17.4,17.4l-15.3,22.9
+		C412.9,155.5,416.8,174.9,431.2,184.5L431.2,184.5L431.2,184.5z M349.2,79.6v11.1"/>
+	<path class="st1" d="M442.8,473.4H69.2c-34.1,0-61.7-27.6-61.7-61.7v-0.9c0-34.1,27.6-61.7,61.7-61.7h373.7
+		c34.1,0,61.7,27.6,61.7,61.7v0.9C504.5,445.8,476.9,473.4,442.8,473.4L442.8,473.4z M69.6,380.3h372.8 M69.6,442.4h372.8
+		 M318.1,411.3L318.1,411.3 M442.4,411.3L442.4,411.3 M69.6,473.4h93.2v31.1H69.6V473.4z M349.2,473.4h93.2v31.1h-93.2V473.4z
+		 M209.4,473.4h93.2v31.1h-93.2L209.4,473.4z M100.7,312.4v36.8H225V224.9H100.7v54.8"/>
+	<path class="st1" d="M178.3,224.9h-31.1v41.4l15.5-10.4l15.5,10.4L178.3,224.9z M131.4,297.4h15.9 M131.4,318.1h15.9 M411.3,313.7
+		v35.4H287.1V223.9h124.3V281"/>
+	<path class="st1" d="M364.7,224.9h-31.1v41.4l15.5-10.4l15.5,10.4L364.7,224.9z M317.8,297.4h15.9 M317.8,318.1h15.9 M179.2,38.6
+		h294.3V7.5H38.6v31.1h107.9 M318.1,38.6h62.1v62.1c0,17.2-13.9,31.1-31.1,31.1l0,0c-17.2,0-31.1-13.9-31.1-31.1L318.1,38.6
+		L318.1,38.6z"/>
+</g>
+</svg>
