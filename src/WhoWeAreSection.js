@@ -9,19 +9,23 @@ export default function WhoWeAreSection() {
         <p className="text">We offer a range of services including design, installation, maintenance, and support for all your industrial automation needs, streamlining your operations and saving you time and resources.</p>
         <div className="row m-0 pt-2 mb-3">
           <div className="col-md-7 p-0 pe-4">
-            <p className="pe-3 mb-2 d-flex justify-content-between">
-              <span className="fs-medium fw-bold">Save Your Time</span>
-              <span>94%</span>
-            </p>
-            <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100">
-              <div className="progress-bar" style={{ width: "94%" }}></div>
+            <div data-aos="fade-right">
+              <p className="pe-3 mb-2 d-flex justify-content-between">
+                <span className="fs-medium fw-bold">Save Your Time</span>
+                <span>94%</span>
+              </p>
+              <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow="94" aria-valuemin="0" aria-valuemax="100">
+                <div className="progress-bar" style={{ width: "94%" }}></div>
+              </div>
             </div>
-            <p className="pe-3 mt-4 mb-2 d-flex justify-content-between">
-              <span className="fs-medium fw-bold">Trusted Company</span>
-              <span>90%</span>
-            </p>
-            <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
-              <div className="progress-bar" style={{ width: "90%" }}></div>
+            <div data-aos="fade-right" data-aos-offset="140">
+              <p className="pe-3 mt-4 mb-2 d-flex justify-content-between">
+                <span className="fs-medium fw-bold">Trusted Company</span>
+                <span>90%</span>
+              </p>
+              <div className="progress" role="progressbar" aria-label="Basic example" aria-valuenow="90" aria-valuemin="0" aria-valuemax="100">
+                <div className="progress-bar" style={{ width: "90%" }}></div>
+              </div>
             </div>
             <p className="mt-4 mb-2">
               <i className="fa-solid fa-check pe-2 color-ff8b34"></i> Constant Improvement

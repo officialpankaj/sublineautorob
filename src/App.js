@@ -17,7 +17,7 @@ function App() {
   useEffect(() => {
     window.addEventListener("load", () => {
       Aos.init({
-        duration: 600,
+        duration: 700,
       });
       Aos.refresh();
     });

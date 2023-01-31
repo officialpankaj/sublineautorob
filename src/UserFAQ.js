@@ -5,7 +5,7 @@ export default function UserFAQ() {
     <div className="row m-0 user-faq accordion-container">
       <div className="col-md-6 d-flex flex-column justify-content-center pe-4 faqs-wrapper">
         <p className="main-title">User FAQ</p>
-        <h2 className="main-heading">Answering all Your Need with Robot and Machine</h2>
+        <h2 className="main-heading" data-aos="fade-right">Answering all Your Need with Robot and Machine</h2>
         <p className="">At our company, we provide advanced robot and machine technology to answer all your needs, from automation to data analysis, improving your business operations and bottom line.</p>
         <div className="accordion mb-1" id="testimonial-accordion">
           <div className="accordion-item">
@@ -41,13 +41,13 @@ export default function UserFAQ() {
             </div>
           </div>
         </div>
-        <Link className="button mt-4" to="/services/industry-automation">
+        <Link className="button mt-4" to="/services/industry-automation" data-aos="fade-up">
           Learn More
         </Link>
       </div>
       <div className="col-md-6">
-        <div className="image-wrapper d-flex align-items-end justify-content-end">
-          <div className="w-fit-content d-flex align-items-center stats-box">
+        <div className="image-wrapper d-flex align-items-end justify-content-end" data-aos="fade-up-left">
+          <div className="w-fit-content d-flex align-items-center stats-box" data-aos="fade-left" data-aos-offset="50">
             <i className="fa-solid fa-users-gear fs-extra-large color-ff8b34 me-3"></i>
             <div className="w-fit-content">
               <p className="m-0 lh-100 font-Kanit fs-extra-large d-flex align-items-center fw-500">

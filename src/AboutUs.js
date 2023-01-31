@@ -23,7 +23,7 @@ export default function AboutUs() {
         <div className="col-md-6">
           <div className="row m-0 pb-5">
             <div className="col-md-6">
-              <div className="image-wrapper box1">
+              <div className="image-wrapper box1" data-aos="fade-left">
                 <div className="details-wrapper">
                   <h4 className="font-Kanit fs-semi-large">Solid Quality</h4>
                   <p className="mb-0">Our products are known for their solid quality and durability.</p>
@@ -31,7 +31,7 @@ export default function AboutUs() {
               </div>
             </div>
             <div className="col-md-6">
-              <div className="image-wrapper box2">
+              <div className="image-wrapper box2" data-aos="fade-left">
                 <div className="details-wrapper">
                   <h4 className="font-Kanit fs-semi-large">Smart System</h4>
                   <p className="mb-0">We deliver solid quality in all of our products and services.</p>
@@ -41,7 +41,7 @@ export default function AboutUs() {
           </div>
           <div className="row m-0 py-3">
             <div className="col-md-12">
-              <div className="image-wrapper box3">
+              <div className="image-wrapper box3" data-aos="fade-in-up">
                 <div className="details-wrapper">
                   <h4 className="font-Kanit fs-semi-large">AI Integrated</h4>
                   <p className="mb-0">Our company is at the forefront of technology, with AI integrated into all of our products and services.</p>

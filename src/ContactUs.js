@@ -16,20 +16,21 @@ export default function ContactUs() {
             onSubmit={(e) => {
               e.preventDefault();
             }}
+            data-aos="fade-up"
           >
             <input type="text" placeholder="Your Name" className="form-control" />
             <input type="email" placeholder="Your Email" className="form-control" />
             <input type="text" placeholder="Your Subject" className="form-control" />
             <textarea rows="5" placeholder="Your Message" className="form-control" ></textarea>
-            <button type="submit" className="button mt-2">Send Message</button>
+            <button type="submit" className="button mt-2" data-aos="fade-up">Send Message</button>
           </form>
         </div>
         <div className="col-md-6 ps-4">
-          <p className="main-title">Get In Touch</p>
+          <p className="main-title" data-aos="fade-left">Get In Touch</p>
           <h2 className="main-heading mb-3">Contact Us Now</h2>
           <p>Get in touch with us today! Our team is here to answer any questions and help you with all your automation needs. Simply send us a message and we'll get back to you promptly. We look forward to hearing from you.</p>
           <div className="row m-0 mb-4 contact-details-wrapper">
-            <div className="col-md-6 ps-0 row m-0">
+            <div className="col-md-6 ps-0 row m-0" data-aos="fade-up-left">
               <div className="col-md-4 ps-0">
                 <div className="icon-wrapper">
                   <img src="/images/skyscraper.svg" alt="location" className="w-45" />
@@ -40,7 +41,7 @@ export default function ContactUs() {
                 <p className="mb-0">Thane, Mumbai, 421203</p>
               </div>
             </div>
-            <div className="col-md-6 ps-0 row m-0">
+            <div className="col-md-6 ps-0 row m-0" data-aos="fade-up-left" data-aos-offset="160">
               <div className="col-md-4 ps-0">
                 <div className="icon-wrapper">
                   <img src="/images/office-building.svg" alt="location" className="w-75" />
@@ -53,7 +54,7 @@ export default function ContactUs() {
             </div>
           </div>
           <div className="row m-0 contact-details-wrapper">
-            <div className="col-md-6 ps-0 row m-0">
+            <div className="col-md-6 ps-0 row m-0" data-aos="fade-up-left">
               <div className="col-md-4 ps-0">
                 <div className="icon-wrapper">
                   <img src="/images/phone-call.svg" alt="location" className="w-75" />
@@ -64,7 +65,7 @@ export default function ContactUs() {
                 <p className="mb-0">(+91) 77229 68126</p>
               </div>
             </div>
-            <div className="col-md-6 ps-0 row m-0">
+            <div className="col-md-6 ps-0 row m-0" data-aos="fade-up-left" data-aos-offset="160">
               <div className="col-md-4 ps-0">
                 <div className="icon-wrapper">
                   <img src="/images/mail.svg" alt="location" className="w-75" />
@@ -79,10 +80,10 @@ export default function ContactUs() {
           <hr className="my-5" />
           <h4 className="font-Kanit fs-medium-large mb-4">Follow Our Social Media</h4>
           <div className="social-wrapper">
-            <i className="fa-brands fa-facebook-f"></i>
-            <i className="fa-brands fa-twitter"></i>
-            <i className="fa-brands fa-linkedin-in"></i>
-            <i className="fa-brands fa-instagram m-0"></i>
+            <i className="fa-brands fa-facebook-f" data-aos="fade-up-left"></i>
+            <i className="fa-brands fa-twitter" data-aos="fade-up-left" data-aos-offset="140"></i>
+            <i className="fa-brands fa-linkedin-in" data-aos="fade-up-left" data-aos-offset="160"></i>
+            <i className="fa-brands fa-instagram m-0" data-aos="fade-up-left" data-aos-offset="180"></i>
           </div>
         </div>
       </div>

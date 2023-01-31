@@ -51,18 +51,24 @@ export default function ServiceDetails() {
       </div>
       <div className="row m-0 service-detail-section">
         <div className="col-md-8 pe-4">
-          <h2 className="service-title font-Kanit color-252525 mb-4">About {servicedetails[servicename].title}</h2>
+          <h2 className="service-title font-Kanit color-252525 mb-4" data-aos="fade-right">
+            About {servicedetails[servicename].title}
+          </h2>
           <p className="mb-3">{servicedetails[servicename].main_content}</p>
           <div className="row m-0">
             <div className="col-md-6 ps-0">
-              <img src={servicedetails[servicename].image_url} alt={servicedetails[servicename].title + "-service"} className="w-100" />
+              <img src={servicedetails[servicename].image_url} alt={servicedetails[servicename].title + "-service"} className="w-100" data-aos="fade-right-up" />
             </div>
             <div className="col-md-6">
               <ul className="benefits-list h-100 d-flex flex-column justify-content-center">
                 {servicedetails[servicename]?.service_benefits &&
                   servicedetails[servicename]?.service_benefits?.length > 0 &&
                   servicedetails[servicename]?.service_benefits?.map((d, i) => {
-                    return <li key={"service-benefit--" + i}>{d}</li>;
+                    return (
+                      <li data-aos="fade-up-left" key={"service-benefit--" + i}>
+                        {d}
+                      </li>
+                    );
                   })}
               </ul>
             </div>
@@ -71,7 +77,7 @@ export default function ServiceDetails() {
           <hr className="my-5" />
           <div className="row m-0 service-perks">
             <div className="col-md-4">
-              <img src="/images/tools.svg" alt="proper-equipment" className="w-23" />
+              <img src="/images/tools.svg" alt="proper-equipment" className="w-23 bounce-transition" />
               <h4 className="color-252525 font-Kanit mt-3">Proper Equipment</h4>
               <p className="">Proper equipment for reliable performance, minimal downtime.</p>
               <Link to="/contact" className="color-ff8b34 fs-semi-small fw-500">
@@ -79,7 +85,7 @@ export default function ServiceDetails() {
               </Link>
             </div>
             <div className="col-md-4">
-              <img src="/images/team.svg" alt="proper-equipment" className="w-23" />
+              <img src="/images/team.svg" alt="proper-equipment" className="w-23 bounce-transition" />
               <h4 className="color-252525 font-Kanit mt-3">Prefessional Team</h4>
               <p className="">Expert solutions from our experienced professional team.</p>
               <Link to="/contact" className="color-ff8b34 fs-semi-small fw-500">
@@ -87,7 +93,7 @@ export default function ServiceDetails() {
               </Link>
             </div>
             <div className="col-md-4">
-              <img src="/images/helmet.svg" alt="proper-equipment" className="w-23" />
+              <img src="/images/helmet.svg" alt="proper-equipment" className="w-23 bounce-transition" />
               <h4 className="color-252525 font-Kanit mt-3">Secure & Safety</h4>
               <p className="">Secure automation through latest technology and techniques.</p>
               <Link to="/contact" className="color-ff8b34 fs-semi-small fw-500">
@@ -101,7 +107,9 @@ export default function ServiceDetails() {
             <h5 className="font-Kanit fs-extra-large color-252525">
               Interested <span className="color-ff8b34 fs-normal">in Service</span>
             </h5>
-            <Link className="button text-center w-100" to="/contact">Contact Now</Link>
+            <Link className="button text-center w-100" to="/contact">
+              Contact Now
+            </Link>
             <h4 className="font-Kanit color-252525 mt-4 fs-semi-large">This Service Includes</h4>
             <ul className="m-0">
               <li>
@@ -118,7 +126,7 @@ export default function ServiceDetails() {
               </li>
             </ul>
           </div>
-          <div className="need-help">
+          <div className="need-help" data-aos="fade-up">
             <h4 className="font-Kanit mb-4">Need For Some Help ?</h4>
             <p>Get expert help today with ease and peace of mind. Contact us now.</p>
             <div className="d-flex mb-4">
