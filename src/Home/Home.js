@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import OurBlogsSection from "./OurBlogsSection";
-import OurServicesSection from "./OurServicesSection";
-import WhoWeAreSection from "./WhoWeAreSection";
+import OurBlogsSection from "../Common/OurBlogsSection";
+import OurServicesSection from "../Common/OurServicesSection";
+import WhoWeAreSection from "../Common/WhoWeAreSection";
 
 export default function Home() {
   return (

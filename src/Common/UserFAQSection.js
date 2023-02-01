@@ -1,6 +1,6 @@
 import { Link } from "react-router-dom";
 
-export default function UserFAQ() {
+export default function UserFAQSection() {
   return (
     <div className="row m-0 user-faq accordion-container">
       <div className="col-md-6 d-flex flex-column justify-content-center pe-4 faqs-wrapper">

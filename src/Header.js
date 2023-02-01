@@ -40,7 +40,7 @@ export default function Header() {
             <p className="m-0">
               <strong>Get&nbsp;Consultation</strong>
             </p>
-            <p className="m-0">+91 77229 68126</p>
+            <p className="m-0"><a className="color-fff" href="tel:7722968126">+91 77229 68126</a></p>
           </div>
         </div>
       </div>

@@ -3,7 +3,7 @@ export default function TopBar() {
     <div className="top-bar-container">
       <div className="d-inline-flex justify-content-center">
         <i className="fa-solid fa-phone color-ff8b34 pt-1"></i>&nbsp; <span className="text">Need Free Consultation?</span>
-        <strong className="ps-2">Contact Us Now</strong>
+        <strong className="ps-2"><a className="color-252525" href="tel:7722968126">Contact Us Now</a></strong>
       </div>
       <div className="d-inline-flex social-icons color-ff8b34">
         <i className="fa-brands fa-facebook-f"></i>

@@ -1,5 +1,5 @@
 import { Link, useParams } from "react-router-dom";
-import GetFreeConsultationService from "./GetFreeConsultationService";
+import GetFreeConsultationService from "../Common/GetFreeConsultationService";
 
 export default function ServiceDetails() {
   const { servicename } = useParams();
@@ -137,7 +137,12 @@ export default function ServiceDetails() {
               </div>
               <div className="d-flex flex-column justify-content-center ps-3">
                 <p className="font-Kanit fs-semi-large lh-100 fw-500 mb-0">Phone</p>
-                <p className="mb-0">(+91) 77229 68126</p>
+                <p className="mb-0">
+                  {" "}
+                  <a href="tel:7722968126" className="color-fff">
+                    (+91) 77229 68126
+                  </a>
+                </p>
               </div>
             </div>
             <div className="d-flex mb-4">
@@ -148,7 +153,11 @@ export default function ServiceDetails() {
               </div>
               <div className="d-flex flex-column justify-content-center ps-3">
                 <p className="font-Kanit fs-semi-large lh-100 fw-500 mb-0">Email</p>
-                <p className="mb-0">support@sublineautorob.com</p>
+                <p className="mb-0">
+                  <a href="mailto:support@sublineautorob.com" className="color-fff">
+                    support@sublineautorob.com
+                  </a>
+                </p>
               </div>
             </div>
           </div>

@@ -1,7 +1,6 @@
 import { Link } from "react-router-dom";
-import ClientTestimonialSection from "./ClientTestimonialSection";
-import OurServicesSection from "./OurServicesSection";
-import UserFAQ from "./UserFAQ";
+import OurServicesSection from "../Common/OurServicesSection";
+import UserFAQSection from "../Common/UserFAQSection";
 
 export default function Services() {
   return (
@@ -48,7 +47,7 @@ export default function Services() {
         </div>
       </div>
       {/* <ClientTestimonialSection /> */}
-      <UserFAQ />
+      <UserFAQSection />
     </div>
   );
 }

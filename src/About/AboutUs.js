@@ -1,7 +1,7 @@
 import { Link } from "react-router-dom";
-import OurTeamSection from "./OurTeamSection";
-import UserFAQ from "./UserFAQ";
-import WhoWeAreSection from "./WhoWeAreSection";
+import OurTeamSection from "../Common/OurTeamSection";
+import UserFAQSection from "../Common/UserFAQSection";
+import WhoWeAreSection from "../Common/WhoWeAreSection";
 
 export default function AboutUs() {
   return (
@@ -52,7 +52,7 @@ export default function AboutUs() {
         </div>
       </div>
       <WhoWeAreSection />
-      <UserFAQ />
+      <UserFAQSection />
       {/* <OurTeamSection /> */}
     </div>
   );

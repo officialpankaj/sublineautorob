@@ -15,7 +15,7 @@ export default function Footer() {
           </p>
           <p>We specialize in providing advanced technology solutions to streamline your business operations and increase efficiency. We have the tools and expertise to help you achieve success.</p>
           <p className="fs-semi-large fw-500 font-Kanit">
-            <span className="color-ff8b34 font-Kanit">Hotline</span> : (+62) 111 33 231
+            <span className="color-ff8b34 font-Kanit">Hotline</span> : <a className="color-fff font-Kanit" href="tel:7722968126">(+91) 77229 68126</a>
           </p>
         </div>
         <div className="col ps-5 pe-0">
@@ -25,7 +25,7 @@ export default function Footer() {
             </div>
             <div className="d-inline-flex flex-column text-box">
               <p className="fw-bold title m-0">Phone</p>
-              <p className="text m-0">+91 77229 68126</p>
+              <p className="text m-0"><a className="color-fff" href="tel:7722968126">+91 77229 68126</a></p>
             </div>
           </div>
           <div className="body-box">
@@ -51,7 +51,7 @@ export default function Footer() {
             </div>
             <div className="d-inline-flex flex-column text-box">
               <p className="fw-bold title m-0">Email</p>
-              <p className="text m-0">support@sublineautorob.com</p>
+              <p className="text m-0"><a className="color-fff" href="mailto:support@sublineautorob.com">support@sublineautorob.com</a></p>
             </div>
           </div>
           <div className="body-box">
