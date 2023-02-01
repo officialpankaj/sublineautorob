@@ -331,6 +331,9 @@
 .color-000 {
   color: #000 !important;
 }
+.overflow-hidden {
+  overflow: hidden;
+}
 .color-fff {
   color: #fff !important;
 }

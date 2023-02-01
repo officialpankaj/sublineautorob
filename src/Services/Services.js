@@ -12,7 +12,7 @@ export default function Services() {
         </p>
       </div>
       <OurServicesSection />
-      <div className="row m-0 services-four-up pb-0">
+      <div className="row m-0 services-four-up pb-0 overflow-hidden">
         <div className="col-md-3 box-wrapper">
           <div className="box box1" data-aos="fade-up-right">
             <div className="content-body d-flex flex-column justify-content-end">
