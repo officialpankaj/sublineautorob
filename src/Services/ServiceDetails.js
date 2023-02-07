@@ -17,7 +17,7 @@ export default function ServiceDetails() {
       main_content: "Stay ahead in the industry with our cutting-edge automation solutions, designed to increase efficiency, improve performance, and drive growth for your business. Our team of experts delivers customized solutions to meet your specific needs and bring value to your operations. Trust us to drive your industry forward.",
       service_benefits: ["Flexible & Cost-Effective", "Increased efficiency", "Enhanced performance", "Improved safety", "Remote control", "Seamless integration", "24/7 Available to Service"],
       sub_content: "Maximize productivity and competitiveness with our industry-leading automation solutions. Our team offers personalized, high-quality services to enhance your operations and meet your unique needs. Partner with us for a smarter, more efficient industry.",
-      image_url: "/images/robotic-arms-along-assembly-line-in-modern-factory-1-1 -3x2.jpg",
+      image_url: "/images/robotic-arms-along-assembly-line-in-modern-factory-3x2.jpg",
     },
     "smart-class-automation": {
       title: "Smart Class Automation",
@@ -31,14 +31,14 @@ export default function ServiceDetails() {
       main_content: "Our Testing Equipment line offers reliable and accurate solutions for various industries. From quality control to research and development, our equipments are designed to deliver precise results every time. Trust us for all your testing needs and take the first step towards efficient quality assurance.",
       service_benefits: ["Flexible & Cost-Effective", "Increased efficiency", "Enhanced performance", "Improved safety", "Remote control", "Seamless integration", "24/7 Available to Service"],
       sub_content: "We offer a wide range of Testing Equipment, including electrical, mechanical, and environmental testing solutions. Our products are designed to meet industry standards and are backed by expert technical support. Upgrade your testing process and achieve consistent, high-quality results with our innovative Testing Equipment.",
-      image_url: "/images/791_2.jpg",
+      image_url: "/images/testing-equipment.jpg",
     },
     "electrical-panels": {
       title: "Electrical Panels",
       main_content: "Our Electrical Panels are designed for efficient and safe distribution of electrical power. With options for custom design, our panels provide reliable performance in various industries. Trust us for all your electrical panel needs and experience a hassle-free power distribution system.",
       service_benefits: ["Flexible & Cost-Effective", "Increased efficiency", "Enhanced performance", "Improved safety", "Remote control", "Seamless integration", "24/7 Available to Service"],
       sub_content: "Our Electrical Panels are manufactured with top-quality components and are designed for easy installation and maintenance. Whether it's for a commercial or industrial setting, our panels ensure a secure and efficient electrical distribution system. Upgrade your power management with our reliable Electrical Panels today.",
-      image_url: "/images/DSC03763-HDR-web.jpg",
+      image_url: "/images/electrical-board.jpg",
     },
   };
   return (

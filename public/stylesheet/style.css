@@ -347,7 +347,7 @@ input[type="number"] {
 }
 
 .home-aboutus-section .right-section .image-box {
-  background-image: url("../images/The-Benefits-of-Industrial-Robotic-Automation.jpg");
+  background-image: url("../images/Industrial-Robotic-Automation.jpg");
   background-position: center;
   background-size: cover;
 }
@@ -397,7 +397,7 @@ input[type="number"] {
 .home-who-we-are-section .image-box {
   width: 100%;
   height: 100%;
-  background-image: url("../images/female-engineers-working-in-industry-factory-.jpg");
+  background-image: url("../images/female-engineers-working-in-industry-factory.jpg");
   background-position: center;
   background-size: cover;
   transform: translateY(-7.5%);
@@ -419,15 +419,15 @@ input[type="number"] {
 }
 
 .our-blog-section .image-box.box1 {
-  background-image: url("../images/robotic-arm-modern-industrial-technology-automated-production-c-1.jpg");
+  background-image: url("../images/robotic-arm-modern-industrial-technology-automated-production.jpg");
 }
 
 .our-blog-section .image-box.box2 {
-  background-image: url("../images/robot-forklift-.jpg");
+  background-image: url("../images/robot-forklift.jpg");
 }
 
 .our-blog-section .image-box.box3 {
-  background-image: url("../images/52612-automated-milking-machine.jpg");
+  background-image: url("../images/automated-milking-machine.jpg");
 }
 
 .our-blog-section .article-title {
@@ -484,6 +484,7 @@ input[type="number"] {
   color: #fff;
   background-image: linear-gradient(rgba(0, 9, 29, 0.85), rgba(0, 9, 29, 0.85)), url("../images/section-top-heading-bg.webp");
   background-size: cover;
+  background-position: center;
   padding: 9.5rem 0rem;
   text-align: center;
 }
@@ -518,16 +519,16 @@ input[type="number"] {
 }
 
 .services-four-up .box.box1 {
-  background-image: url("../images/robotic-arm-in-a-factory-modern-heavy-industry-machine-learning-e1654008494843.jpg");
+  background-image: url("../images/robotic-arm-in-a-factory-modern-heavy-industry.jpg");
 }
 .services-four-up .box.box2 {
-  background-image: url("../images/robotic-arm-for-packing--e1654008520229.jpg");
+  background-image: url("../images/robotic-arm-for-packing.jpg");
 }
 .services-four-up .box.box3 {
   background-image: url("../images/robot-young.jpg");
 }
 .services-four-up .box.box4 {
-  background-image: url("../images/robot-arm-bom-ali.jpg");
+  background-image: url("../images/man-controlling-robot-arm.jpg");
 }
 
 .services-four-up .content-body {
@@ -584,7 +585,7 @@ input[type="number"] {
 }
 
 .user-faq .image-wrapper {
-  background-image: url("../images/fibre-laser-robotic-remote-cutting-system-1-e1654008554422-ppmpazkh64610gvczz7x1sle82gg4jtoiz54rxjjqw.jpg");
+  background-image: url("../images/fibre-laser-robotic-remote-cutting-system.jpg");
   background-size: cover;
   padding: 2.2rem 2rem;
   min-height: 690px;
@@ -756,7 +757,7 @@ input[type="number"] {
 }
 
 .not-found-404 {
-  background-image: linear-gradient(rgba(0, 9, 29, 0.85), rgba(0, 9, 29, 0.85)), url("../images/robotic-arms-along-assembly-line-in-modern-factory-1-1.jpg");
+  background-image: linear-gradient(rgba(0, 9, 29, 0.85), rgba(0, 9, 29, 0.85)), url("../images/robotic-arms-along-assembly-line-in-modern-factory-sideview.jpg");
   background-size: cover;
   background-position: center;
   color: #ffffff;
@@ -860,7 +861,7 @@ input[type="number"] {
 }
 
 .about-aboutus-section .image-wrapper.box3 {
-  background-image: url("../images/The-Benefits-of-Industrial-Robotic-Automation.jpg");
+  background-image: url("../images/Industrial-Robotic-Automation.jpg");
   background-size: cover;
   background-position: center;
 }

@@ -1,25 +1,85 @@
 {
-  "short_name": "React App",
-  "name": "Create React App Sample",
+  "short_name": "Subline AutoRob",
+  "name": "Subline AutoRob",
   "icons": [
     {
-      "src": "favicon.ico",
-      "sizes": "64x64 32x32 24x24 16x16",
-      "type": "image/x-icon"
+      "src": "/images/logo.svg",
+      "type": "image/svg+xml",
+      "sizes": "814x738"
     },
     {
-      "src": "logo192.png",
+      "src": "/images/logo144.png",
+      "type": "image/png",
+      "sizes": "144x144"
+    },
+    {
+      "src": "/images/logo192.png",
       "type": "image/png",
       "sizes": "192x192"
     },
     {
-      "src": "logo512.png",
+      "src": "/images/logo512.png",
       "type": "image/png",
-      "sizes": "512x512"
+      "sizes": "512x512",
+      "purpose": "any maskable"
     }
   ],
-  "start_url": ".",
+  "id": "/?source=pwa",
+  "start_url": "/?source=pwa",
+  "background_color": "#FF8B34",
   "display": "standalone",
-  "theme_color": "#000000",
-  "background_color": "#ffffff"
+  "orientation": "portrait-primary",
+  "categories": ["automation", "home automation", "industry automation", "smart class automation", "testing equipment", "electrical panels"],
+  "prefer_related_applications": false,
+  "lang": "en-US",
+  "scope": "/",
+  "theme_color": "#FF8B34",
+  "shortcuts": [
+    {
+      "name": "Subline AutoRob",
+      "short_name": "Subline AutoRob",
+      "description": "Transform your environment with our smart automation technology.",
+      "url": "/?source=pwa",
+      "icons": [{ "src": "/images/logo96.png", "sizes": "96x96" }]
+    }
+  ],
+  "description": "Transform your environment with our smart automation technology.",
+  "screenshots": [
+    {
+      "src": "/images/Screenshot-1.jpg",
+      "type": "image/jpg",
+      "sizes": "700x346",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/images/Screenshot-2.jpg",
+      "type": "image/jpg",
+      "sizes": "700x346",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/images/Screenshot-3.jpg",
+      "type": "image/jpg",
+      "sizes": "700x346",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/images/Screenshot-4.jpg",
+      "type": "image/jpg",
+      "sizes": "700x346",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/images/Screenshot-5.jpg",
+      "type": "image/jpg",
+      "sizes": "700x346",
+      "form_factor": "wide"
+    },
+    {
+      "src": "/images/Screenshot-6.jpg",
+      "type": "image/jpg",
+      "sizes": "700x346",
+      "form_factor": "wide"
+    }
+  ]
 }
